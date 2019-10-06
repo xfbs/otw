@@ -27,4 +27,9 @@ nav:
   - Overview: index.md
   - Bandit:
     - Overview: bandit/index.md
-    - Level 0: badit/level0.md
+    - Level 0: bandit/level0.md
+    - Level 1: bandit/level1.md
+    - Level 2: bandit/level2.md
+    - Level 3: bandit/level3.md
+    - Level 4: bandit/level4.md
+    - Level 5: bandit/level5.md
