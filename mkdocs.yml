@@ -1,0 +1,27 @@
+site_name: Over the Wire
+
+copyright: 'Copyright &copy; 2019 Patrick M. Elsen'
+
+repo_name: 'xfbs/otw'
+repo_url: 'https://github.com/xfbs/otw'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue grey'
+    accent: 'blue'
+  logo:
+    icon: 'security'
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - extra
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+nav:
+  - Overview: index.md
