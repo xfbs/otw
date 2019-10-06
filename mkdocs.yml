@@ -25,3 +25,5 @@ markdown_extensions:
 
 nav:
   - Overview: index.md
+  - Bandit:
+    - Overview: bandit/index.md
