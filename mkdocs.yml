@@ -27,3 +27,4 @@ nav:
   - Overview: index.md
   - Bandit:
     - Overview: bandit/index.md
+    - Level 0: badit/level0.md
