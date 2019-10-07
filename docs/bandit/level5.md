@@ -3,13 +3,10 @@
 Connect to server with username `bandit5` and the password.
 
 >   The password for the next level is stored in a file somewhere under the
->   inhere directory and has all of the following properties:
->
->   * human-readable
->   * 1033 bytes in size
->   * not executable
+>   inhere directory and has all of the following properties: human-readable,
+>   1033 bytes in size, not executable.
 
-
+I simply use `ls` and `grep` to find the file with the right size.
 
     bandit5@bandit:~$ ls inhere
     maybehere00  maybehere03  maybehere06  maybehere09  maybehere12  maybehere15  maybehere18
