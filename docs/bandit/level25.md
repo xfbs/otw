@@ -54,3 +54,14 @@ What is this showtext? I can't find anything in it on the man pages. It might be
     exit 0
 
 It's a bash script that shows me a file using `more`. That's a strange way of doing it.
+
+It is possible to invoke an editor from the `more` utility. In order for the `more` utility to work, I needed to set the size of my terminal to be small enough for it to not just print the text.
+
+Then I connected to the level using SSH. The fact that `more` is active is apparent from the little info box in the corner.
+
+    --More--(83%)
+
+Next, I pressed `v` to open up the visual editor (`vim` by default). At that point I'm able to resize my terminal back to a more reasonable size. I can type `:e /etc/bandit_pass/bandit26` to open up the password, which is
+
+    5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
